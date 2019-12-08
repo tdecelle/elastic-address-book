@@ -1,0 +1,30 @@
+{
+  "name": "elastic-address-book",
+  "version": "1.0.0",
+  "description": "Basic address book using Elasticsearch.",
+  "main": "server.js",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node server.js",
+    "start-search": "node Elasticsearch/elasticsearch_server.js",
+    "start": "node Elasticsearch/elasticsearch_server.js && node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdecelle/elastic-address-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdecelle/elastic-address-book/issues"
+  },
+  "homepage": "https://github.com/tdecelle/elastic-address-book#readme"
+}
