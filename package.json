@@ -8,7 +8,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
